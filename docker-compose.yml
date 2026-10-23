@@ -1,0 +1,15 @@
+# Levanta PostgreSQL 16 en tu máquina sin instalarlo: `docker compose up -d`
+services:
+  db:
+    image: postgres:16            # imagen oficial de PostgreSQL versión 16
+    restart: unless-stopped       # se reinicia sola si tu PC se reinicia
+    environment:
+      POSTGRES_USER: nautiflow    # usuario administrador de la base
+      POSTGRES_PASSWORD: nautiflow
+      POSTGRES_DB: nautiflow_dev  # base que se crea al primer arranque
+    ports:
+      - "5432:5432"               # puerto de tu PC : puerto del contenedor
+    volumes:
+      - pgdata:/var/lib/postgresql/data   # guarda los datos aunque borres el contenedor
+volumes:
+  pgdata:
