@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # NautiFlow
 
 Back-office para una agencia de lanchas del Delta: verificación de lancheros, buscador de flota, viajes, reseñas con token y retornos vacíos.
@@ -70,6 +69,3 @@ npm test
 | `scripts/migrate.js` | Aplica las migraciones pendientes |
 | `tests/` | Pruebas automáticas |
 =======
-# S10-26-equipo-10-NautyFlow
-NautiFlow es un sistema de gestión interna (Back-Office) diseñado para centralizar, formalizar y optimizar el servicio de transporte fluvial privado en el Delta del Tigre.
->>>>>>> 0ed988f64de17c29e973fb3ece84e34362c7ae0e
