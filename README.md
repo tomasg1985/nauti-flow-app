@@ -32,7 +32,3 @@
 * `src/models/` y `src/modules/`: Modelos de datos y arquitectura modular por dominios.
 * `src/middlewares/`: Filtros de seguridad, validación y autenticación.
 * `db/migrations/` y `tests/`: Migraciones SQL y suite de pruebas automatizadas.
-
-| `scripts/migrate.js` | Aplica las migraciones pendientes |
-| `tests/` | Pruebas automáticas |
-=======
